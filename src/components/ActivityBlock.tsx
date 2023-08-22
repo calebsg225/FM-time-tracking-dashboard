@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/activityBlock.css';
+import Icons from './Icons';
 
 interface ACTIVITYBLOCKPROPS {
   activityData: {
@@ -19,7 +20,7 @@ const ActivityBlock = ({ activityData, activeTimeframe }:ACTIVITYBLOCKPROPS) => 
   return (
     <div className='activity-block-container'>
       <div className='accent-bar' style={{ backgroundColor: (activityData.accentColor) }}>
-        
+        <Icons svgName={activityData.title} />
       </div>
       <div className='activity-data-display-container'></div>
     </div>

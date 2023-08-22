@@ -2,6 +2,7 @@
 
 :root {
   --background-color: hsl(226 43% 10%);
+  --tile-background: hsl(235 46% 20%);
 }
 
 body {
