@@ -1,13 +1,13 @@
-import React from 'react'
+import './css/profileBlock.css';
 
 interface PROFILEBLOCKPROPS {
   setActiveTimeframe: Function,
-  activeTimeframe: number
+  activeTimeframe: string
 }
 
 const ProfileBlock = ({setActiveTimeframe, activeTimeframe}:PROFILEBLOCKPROPS) => {
   return (
-    <div>
+    <div className='profile-block-container'>
       
     </div>
   )

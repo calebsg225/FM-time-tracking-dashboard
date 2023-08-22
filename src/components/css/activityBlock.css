@@ -1,0 +1,9 @@
+.activity-block-container {
+  position: relative;
+  border: 1px solid green;
+}
+
+.accent-bar {
+  position: absolute;
+  inset: 0 0 3rem;
+}
