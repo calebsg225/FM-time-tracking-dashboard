@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FM-time-tracking-dashboard/static/css/main.073c9b0a.css",
+    "main.js": "/FM-time-tracking-dashboard/static/js/main.8c9ce6d2.js",
+    "index.html": "/FM-time-tracking-dashboard/index.html",
+    "main.073c9b0a.css.map": "/FM-time-tracking-dashboard/static/css/main.073c9b0a.css.map",
+    "main.8c9ce6d2.js.map": "/FM-time-tracking-dashboard/static/js/main.8c9ce6d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8c9ce6d2.js"
+  ]
+}
