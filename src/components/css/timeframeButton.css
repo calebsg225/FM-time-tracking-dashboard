@@ -1,0 +1,17 @@
+.timeframe-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  transition: opacity .2s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.selected-button,
+.unselected-button:hover {
+  opacity: 1;
+}
+
+.unselected-button {
+  opacity: .4;
+}

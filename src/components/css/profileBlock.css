@@ -1,5 +1,42 @@
 .profile-block-container {
-  width: 25%;
-  height: 100%;
-  border: 1px solid red;
+  position: relative;
+  margin: 1rem;
+}
+
+.profile-info-container {
+  background-color: var(--profile-background);
+  position: absolute;
+  inset: 0 0 33%;
+  padding: 2rem;
+  border-radius: 1rem;
+  z-index: 1;
+}
+
+.profile-info-container img {
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 30%;
+}
+
+.profile-info-container div p {
+  opacity: .6;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.profile-info-container div h1 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-top: 8px;
+}
+
+.button-container {
+  background-color: var(--tile-background);
+  border-radius: 1rem;
+  padding: 2rem 2rem 1rem;
+  position: absolute;
+  inset: 63% 0 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:start;
 }

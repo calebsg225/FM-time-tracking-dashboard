@@ -1,27 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
+@media screen and (min-width: 601px) {
+  .App {
+    width: 100vw;
+    aspect-ratio: 2/1;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .activities-block-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1400px ) {
+  .App {
+    width: 1400px;
+  }  
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    width: 100vw;
+    height: 1000px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .activities-block-container {
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .button-container {
+    flex-direction: row;
+  }
+
+  .profile-info-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 :root {
   --background-color: hsl(226 43% 10%);
   --tile-background: hsl(235 46% 20%);
+  --tile-hover: hsl(235  45% 61%);
+  --profile-background: hsl(246 80% 60%);
 }
 
 body {
   font-family: Rubik, sans-serif;
   background-color: var(--background-color);
-}
-
-.App {
-  position: absolute;
-  inset: 5rem;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 98vh;
+}
+
+.App {
+  display: grid;
 }
 
 .activities-block-container {
-  width: 75%;
-  height: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
