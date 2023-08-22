@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/FM-time-tracking-dashboard/static/css/main.7bc8e194.css",
-    "main.js": "/FM-time-tracking-dashboard/static/js/main.11305e5c.js",
+    "main.css": "/FM-time-tracking-dashboard/static/css/main.87d776ee.css",
+    "main.js": "/FM-time-tracking-dashboard/static/js/main.6f78da83.js",
+    "static/media/image-jeremy.png": "/FM-time-tracking-dashboard/static/media/image-jeremy.71cd41f11bee24c1ded3.png",
     "index.html": "/FM-time-tracking-dashboard/index.html",
-    "main.7bc8e194.css.map": "/FM-time-tracking-dashboard/static/css/main.7bc8e194.css.map",
-    "main.11305e5c.js.map": "/FM-time-tracking-dashboard/static/js/main.11305e5c.js.map"
+    "main.87d776ee.css.map": "/FM-time-tracking-dashboard/static/css/main.87d776ee.css.map",
+    "main.6f78da83.js.map": "/FM-time-tracking-dashboard/static/js/main.6f78da83.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bc8e194.css",
-    "static/js/main.11305e5c.js"
+    "static/css/main.87d776ee.css",
+    "static/js/main.6f78da83.js"
   ]
 }
