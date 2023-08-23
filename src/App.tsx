@@ -7,7 +7,7 @@ import ProfileBlock from './components/ProfileBlock';
 function App() {
   const [ activeTimeframe, setActiveTimeframe ] = useState('weekly');
   return (
-    <div className="App">
+    <main className="App">
       <ProfileBlock setActiveTimeframe={setActiveTimeframe} activeTimeframe={activeTimeframe} />
       <section className='activities-block-container'>
         {activitiesData.map((activityData) => {
@@ -16,7 +16,7 @@ function App() {
           )
         })}
       </section>
-    </div>
+    </main>
   );
 }
 

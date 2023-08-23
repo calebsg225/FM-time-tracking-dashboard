@@ -19,13 +19,13 @@
   aspect-ratio: 1/1;
 }
 
-.profile-info-container div p {
+.rofile-subtitle {
   opacity: .6;
   margin-bottom: 0;
   margin-top: 30px;
 }
 
-.profile-info-container div h1 {
+.profile-name {
   font-weight: 300;
   font-size: 2.5rem;
   margin-top: 8px;
