@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 1001px) {
   .App {
     width: 100vw;
     aspect-ratio: 2/1;
@@ -14,21 +14,26 @@
 
   .button-container {
     flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .profile-info-container {
+    padding: 2rem;
   }
 }
 
-@media screen and (min-width: 1400px ) {
+@media screen and (min-width: 1240px ) {
   .App {
-    width: 1400px;
+    width: 1240px;
   }  
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .App {
-    width: 100vw;
-    height: 1000px;
+    position: absolute;
+    inset: 0;
+    height: fit-content;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
   }
 
   .activities-block-container {
@@ -36,15 +41,33 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+  
+  .activity-block-container {
+    width: 90vw;
+    min-height: 210px;
+  }
+  
+  .activity-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   .button-container {
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .profile-info-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding: 3rem 2rem;
+  }
+
+  .profile-block-container {
+    width: 90vw;
+    height: 300px;
   }
 }
 

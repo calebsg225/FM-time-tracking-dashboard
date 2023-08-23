@@ -5,7 +5,7 @@ import ActivityBlock from './components/ActivityBlock';
 import ProfileBlock from './components/ProfileBlock';
 
 function App() {
-  const [ activeTimeframe, setActiveTimeframe ] = useState('daily');
+  const [ activeTimeframe, setActiveTimeframe ] = useState('weekly');
   return (
     <div className="App">
       <ProfileBlock setActiveTimeframe={setActiveTimeframe} activeTimeframe={activeTimeframe} />

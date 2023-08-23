@@ -1,5 +1,4 @@
 .activity-block-container {
-  min-height: 200px;
   position: relative;
   margin: 1rem;
 }
@@ -13,9 +12,12 @@
 .activity-data-display-container {
   background-color: var(--tile-background);
   position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   inset: 20% 0 0 0;
   border-radius: 1rem;
-  padding: 1rem 2rem;
+  padding: 1rem 2rem 2rem;
   transition: background-color .3s;
   cursor: pointer;
 }
@@ -31,7 +33,7 @@
 }
 
 .activity-header p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .activity-header .ellipse-svg {
@@ -43,11 +45,13 @@
   opacity: 1;
 }
 
-.activity-main {
+.activity-main h3 {
   font-size: 4rem;
   font-weight: 300;
+  margin: 6px 0;
 }
 
-.activity-footer {
+.activity-main p {
   opacity: .7;
+  margin: 0;
 }
